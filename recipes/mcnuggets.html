@@ -5,39 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Site CSS files -->
+    <link rel="stylesheet" href="/repos/odin_recipes/static/site.css">
     <title>McNuggets™</title>
-
-    <style>
-        .ingredients__section {
-            /* I'll deal with CSS files some other time */
-            display: inline-flex; 
-            flex-direction: 
-            row; width: 100%; 
-            margin-top: 0px;
-        }
-
-        body {
-            /* Image source for courtesy: 
-            * https://safebooru.org//images/2078/5f79e9e3ba1f2c8a3e52adf30cf1857ac0abb256.jpg?2166293
-            * I modified it and flipped it 180˚ so it would display properly
-            */
-            background-image: url("/repos/git_test/odin-links-and-images/images/yes-chef.png");
-            background-color: unset;
-            background-repeat: no-repeat;
-            background-blend-mode: lighten;
-            background-position: right;
-            background-position-y: 120px !important;
-            background-size: 20%;
-        }
-
-        .header__nav {
-            height: 15px;
-            padding: 0px;
-            float: right;
-            margin-bottom: 10px;
-        }
-    </style>
-
 </head>
 <body>
     <div class="header__nav">
@@ -53,22 +23,26 @@
         <p>Who knows what's in these? All we know is that they're <del>finger lickin' good</del> whoops, wrong company!</p>
         <hr>
         <div class="ingredients__section">
-            <h1>Ingredients</h1>
-            <ul>
-                <li>Chicken</li>
-                <li>Salt</li>
-                <li>Fat</li>
-                <li>Unidentifiable chicken-flavored substance</li>
-                <li>Potato oil (kidding)</li>
-            </ul>
-            <h1>Steps</h1>
-            <ol>
-                <li>Get a chicken. (You choose how to do this.)</li>
-                <li>Own (or be) a multibillion dollar fast food conglomerate.</li>
-                <li>Buy a bunch of processors and hire some workers.</li>
-                <li>???</li>
-                <li>Profit!</li>
-            </ol>
+            <div class="ingredients__section__ingredients">
+                <h1>Ingredients</h1>
+                <ul>
+                    <li>Chicken</li>
+                    <li>Salt</li>
+                    <li>Fat</li>
+                    <li>Unidentifiable chicken-flavored substance</li>
+                    <li>Potato oil (kidding)</li>
+                </ul>
+            </div>
+            <div class="ingredients__section__steps">
+                <h1>Steps</h1>
+                <ol>
+                    <li>Get a chicken. (You choose how to do this.)</li>
+                    <li>Own (or be) a multibillion dollar fast food conglomerate.</li>
+                    <li>Buy a bunch of processors and hire some workers.</li>
+                    <li>???</li>
+                    <li>Profit!</li>
+                </ol>
+            </div>
         </div>
     </div>
 </body>

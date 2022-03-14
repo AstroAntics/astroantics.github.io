@@ -5,40 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/repos/odin_recipes/static/site.css">
     <title>French Fries</title>
-
-    <style>
-        .ingredients__section {
-            /* I'll deal with CSS files some other time */
-            display: inline-flex; 
-            flex-direction: 
-            row; width: 100%; 
-            margin-top: 0px;
-        }
-
-        body {
-            /* Image source for courtesy: 
-            * https://safebooru.org//images/2078/5f79e9e3ba1f2c8a3e52adf30cf1857ac0abb256.jpg?2166293
-            * I modified it and flipped it 180˚ so it would display properly
-            */
-            background-image: url("/repos/git_test/odin-links-and-images/images/yes-chef.png");
-            background-color: unset;
-            background-repeat: no-repeat;
-            background-blend-mode: lighten;
-            background-position: right;
-            background-position-y: 120px !important;
-            background-size: 20%;
-        }
-
-        .header__nav {
-            height: 15px;
-            padding: 0px;
-            float: right;
-            margin-bottom: 10px;
-        }
-
-    </style>
-
 </head>
 <body>
     <div class="header__nav">
@@ -53,22 +21,26 @@
         <p>Served hot and fresh with enough salt to dry out a slug. You want it? You got it.</p>
         <hr>
         <div class="ingredients__section">
-            <h1>Ingredients</h1>
-        <ul>
-            <li>Potatoes</li>
-            <li>Salt</li>
-            <li>That slicer thing you use to cut potatoes up</li>
-            <li>Vegetable oil</li>
-            <li><strong>Optional:</strong> Ketchup is handy in a pinch. </li>
-        </ul>
-        <h1>Steps</h1>
-        <ol>
-            <li>Cut up/julienne a bunch of potatoes.</li>
-            <li>Dunk them in vegetable oil or use a fryer.</li>
-            <li>Take them out and lightly season them with salt.</li>
-            <li>Add ketchup and serve with other sauces as required.</li>
-            <li><em>Bon appétit!</em></li>
-        </ol>
+            <div class="ingredients__section__ingredients">
+                <h1>Ingredients</h1>
+                <ul>
+                    <li>Potatoes</li>
+                    <li>Salt</li>
+                    <li>That slicer thing you use to cut potatoes up</li>
+                    <li>Vegetable oil</li>
+                    <li><strong>Optional:</strong> Ketchup is handy in a pinch. </li>
+                </ul>
+            </div>
+            <div class="ingredients__section__steps">
+                <h1>Steps</h1>
+                <ol>
+                    <li>Cut up/julienne a bunch of potatoes.</li>
+                    <li>Dunk them in vegetable oil or use a fryer.</li>
+                    <li>Take them out and lightly season them with salt.</li>
+                    <li>Add ketchup and serve with other sauces as required.</li>
+                    <li><em>Bon appétit!</em></li>
+                </ol>
+            </div>
         </div>
     </div>
 </body>
