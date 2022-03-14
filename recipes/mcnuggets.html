@@ -1,3 +1,4 @@
+<!-- I wonder if anyone's going to read this. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,32 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>McNuggets</title>
+
+    <style>
+        .ingredients__section {
+            /* I'll deal with CSS files some other time */
+            display: inline-flex; 
+            flex-direction: 
+            row; width: 100%; 
+            margin-top: 0px;
+        }
+
+        body {
+            background-image: url("/repos/git_test/odin-links-and-images/images/yes-chef.png");
+            background-color: unset;
+            background-repeat: no-repeat;
+            background-blend-mode: lighten;
+            background-position: right;
+            background-position-y: 120px !important;
+            background-size: 20%;
+        }
+
+    </style>
+
 </head>
 <body>
     <h1>Chicken Mc<del>Jugger</del>Nuggets</h1>
-    <p>Want more delicious recipes? Go <a href="">here</a> for a taste of fried rice, and <a href="">here</a> for some French fries.</p>
+    <p>Want more delicious recipes? Go <a href="/repos/odin_recipes/recipes/fried-rice.html">here</a> for a taste of fried rice, 
+        and <a href="/repos/odin_recipes/recipes/french-fries.html">here</a> for some French fries.</p>
     <hr>
     <div class="head__image__holder">
         <img src="/repos/git_test/odin-links-and-images/images/nuggies.jpg" alt="MCNUGGETS!!!" height="300" width="450">
         <h1>Description</h1>
         <p>Who knows what's in these? All we know is that they're <del>finger lickin' good</del> whoops, wrong company!</p>
         <hr>
-        <h1>Ingredients</h1>
-        <ul>
-            <li>Chicken</li>
-            <li>Salt</li>
-            <li>Fat</li>
-            <li>Unidentifiable chicken-flavored substance</li>
-            <li>Potato oil (kidding)</li>
-        </ul>
-        <h1>Steps</h1>
-        <ol>
-            <li>Get a chicken. (You choose how to do this.)</li>
-            <li>Own (or be) a multibillion dollar fast food conglomerate.</li>
-            <li>Buy a bunch of processors and hire some workers.</li>
-            <li>???</li>
-            <li>Profit!</li>
-        </ol>
+        <div class="ingredients__section">
+            <h1>Ingredients</h1>
+            <ul>
+                <li>Chicken</li>
+                <li>Salt</li>
+                <li>Fat</li>
+                <li>Unidentifiable chicken-flavored substance</li>
+                <li>Potato oil (kidding)</li>
+            </ul>
+            <h1>Steps</h1>
+            <ol>
+                <li>Get a chicken. (You choose how to do this.)</li>
+                <li>Own (or be) a multibillion dollar fast food conglomerate.</li>
+                <li>Buy a bunch of processors and hire some workers.</li>
+                <li>???</li>
+                <li>Profit!</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

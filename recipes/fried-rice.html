@@ -1,36 +1,70 @@
+<!-- I wonder if anyone's going to read this. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>McNuggets</title>
+    <title>Fried Rice</title>
+    <style>
+        .ingredients__section {
+            /* I'll deal with CSS files some other time */
+            display: inline-flex; 
+            flex-direction: 
+            row; width: 100%; 
+            margin-top: 0px;
+        }
+
+        body {
+            background-image: url("/repos/git_test/odin-links-and-images/images/yes-chef.png");
+            background-color: unset;
+            background-repeat: no-repeat;
+            background-blend-mode: lighten;
+            background-position: right;
+            background-position-y: 120px !important;
+            background-size: 20%;
+        }
+
+    </style>
+
 </head>
 <body>
-    <h1>Chicken Mc<del>Jugger</del>Nuggets</h1>
-    <p>Want more delicious recipes? Go <a href="">here</a> for a taste of fried rice, and <a href="">here</a> for some French fries.</p>
+    <div class="header__nav">
+        <p>McNuggets / Fried Rice / French Fries</p>
+    </div>
+
+
+    <h1>Fried Rice </h1>
+    <p>Did you know that Fried Rice is actually the most nutritious of the recipes here? (Probably.) <br>
+        Go <a href="/repos/odin_recipes/recipes/mcnuggets.html">here</a> for some McNuggets, and <a href="/repos/odin_recipes/recipes/french-fries.html">here</a> for some French fries.</p>
     <hr>
     <div class="head__image__holder">
-        <img src="/repos/git_test/odin-links-and-images/images/nuggies.jpg" alt="MCNUGGETS!!!" height="300" width="450">
+        <img src="/repos/git_test/odin-links-and-images/images/delicious-rice.jpeg" alt="Fried rice." title="I COMMAND YOU TO EAT THIS" height="300" width="450">
         <h1>Description</h1>
-        <p>Who knows what's in these? All we know is that they're <del>finger lickin' good</del> whoops, wrong company!</p>
+        <p>It's delicious, it's nutritious, and if you want, you can add enough spice to send yourself to orbit. It's the humble <strong>Fried Rice!</strong></p>
         <hr>
-        <h1>Ingredients</h1>
-        <ul>
-            <li>Chicken</li>
-            <li>Salt</li>
-            <li>Fat</li>
-            <li>Unidentifiable chicken-flavored substance</li>
-            <li>Potato oil (kidding)</li>
-        </ul>
-        <h1>Steps</h1>
-        <ol>
-            <li>Get a chicken. (You choose how to do this.)</li>
-            <li>Own (or be) a multibillion dollar fast food conglomerate.</li>
-            <li>Buy a bunch of processors and hire some workers.</li>
-            <li>???</li>
-            <li>Profit!</li>
-        </ol>
+        <div class="ingredients__section"> 
+            <h1>Ingredients</h1>
+            <ul>
+                <li>Dried mushrooms</li>
+                <li>Peanut oil</li>
+                <li>Steak sirloin</li>
+                <li>Beaten eggs</li>
+                <li>Left over fried rice</li>
+                <li>Your "secret sauce" (if you want).</li>
+            </ul>
+            <h1>Steps</h1>
+            <ol>
+                <li>If you are making sauce to go along with it, make the sauce. If not, ignore this.</li>
+                <li>Cook your vegetables and meat <strong>together</strong> over high heat. Don't forget the peanut 
+                oil unless you want to do a Superman impression prying the food off the pan.</li>
+                <li>Cook the meat until it's well done, then transfer it to a bowl.</li>
+                <li>Add enough oil to cook the veggies until they're crisp - drop them in the same bowl as the meat.</li>
+                <li>Scramble the eggs.</li>
+                <li>Cook the rice until it's golden-brown. Mmm, tasty...</li>
+                <li>Dump everything in the skillet, cook it some more, and serve it hot and fresh. <em>Bon appétit!</em></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>
